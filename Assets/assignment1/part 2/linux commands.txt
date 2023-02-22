@@ -1,0 +1,4 @@
+cd spark-3.3.1-bin-hadoop3
+bin/spark-submit /home/ubuntu/my_pyspark_app.py "export.csv" "answer.csv"
+
+see the output: hdfs dfs -ls hdfs://172.31.93.203:9000/

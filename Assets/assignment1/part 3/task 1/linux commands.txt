@@ -1,0 +1,2 @@
+cd spark-3.3.1-bin-hadoop3
+bin/spark-submit /home/ubuntu/spark_pagerank_app1.py 'web-BerkStan.txt' 'task1_output.txt' 10
